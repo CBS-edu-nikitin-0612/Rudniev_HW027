@@ -40,6 +40,7 @@ namespace task3
 
             Console.WriteLine(house);
             Console.WriteLine(houseClone);
+            
         }
     }
 }

@@ -42,7 +42,10 @@ namespace task3
 
         public object Clone()
         {
-            return new House(this.numberOfRooms, this.roof);
+            House clone = new House();
+            clone.numberOfRooms = this.numberOfRooms;
+            clone.roof = this.roof;
+            return clone;
         }
         public object DeepClone()
         {
